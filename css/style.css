@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -26,6 +27,10 @@ body {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.075);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
 }
 
 .logo {
@@ -59,7 +64,7 @@ body {
 /* ************************* */
 
 .section-hero {
-  padding: 8rem 9.6rem;
+  padding: 16rem 9.6rem;
 }
 
 .hero {
