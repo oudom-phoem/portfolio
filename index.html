@@ -19,7 +19,7 @@
         <ul class="nav-list">
           <li><a class="nav-link" href="#home">Home</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#">Projects</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
           <li><a class="nav-link" href="#">Contact</a></li>
         </ul>
       </nav>
@@ -27,7 +27,7 @@
 
     <main>
       <section class="section-hero" id="home">
-        <div class="hero">
+        <div class="hero container">
           <div class="hero-text-box">
             <h1 class="heading-primary">Front-End React Developer</h1>
             <p class="hero-description">
@@ -35,13 +35,18 @@
               Cambodia.
             </p>
             <div class="hero-social-link">
-              <a href="https://github.com/oudom-phoem" target="_blank">
+              <a
+                class="social-link"
+                href="https://github.com/oudom-phoem"
+                target="_blank"
+              >
                 <ion-icon
                   class="social-link-icon"
                   name="logo-github"
                 ></ion-icon>
               </a>
               <a
+                class="social-link"
                 href="https://www.linkedin.com/in/oudom-phoem-8a12b62a3/"
                 target="_blank"
               >
@@ -92,7 +97,7 @@
       </section>
 
       <section class="section-about" id="about">
-        <div class="about">
+        <div class="container">
           <span class="subheading">about me</span>
           <h1 class="heading-secondary">
             Building Modern Websites with a Focus on Simplicity and Efficiency
@@ -125,6 +130,121 @@
             </p>
           </div>
           <a href="#" class="btn">Get in Touch</a>
+        </div>
+      </section>
+
+      <section class="section-project" id="projects">
+        <div class="container">
+          <span class="subheading">Projects</span>
+          <h2 class="heading-secondary">Some of my projects</h2>
+        </div>
+        <div class="container project-container">
+          <div class="project-text-box">
+            <h3 class="heading-tertiary">Omnifood</h3>
+            <p class="project-description">
+              Omnifood is a fully responsive website showcasing a modern food
+              subscription service. It features a clean, functional design using
+              advanced CSS techniques like Flexbox and Grid for seamless
+              experiences across all devices.
+            </p>
+            <div class="links-and-logos">
+              <a
+                class="social-link"
+                href="https://github.com/oudom-phoem/omnifood"
+                target="_blank"
+              >
+                <ion-icon
+                  class="social-link-icon"
+                  name="logo-github"
+                ></ion-icon>
+              </a>
+              <a
+                class="btn-live"
+                href="https://oudom-phoem.github.io/omnifood/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <img src="https://skillicons.dev/icons?i=html" alt="HTML logo" />
+              <img src="https://skillicons.dev/icons?i=css" alt="CSS logo" />
+            </div>
+          </div>
+          <div class="project-img-box">
+            <img src="./img/omnifood.png" alt="" />
+          </div>
+
+          <div class="project-img-box">
+            <img src="./img/pig-game.png" alt="" />
+          </div>
+          <div class="project-text-box">
+            <h3 class="heading-tertiary">Pig (dice game)</h3>
+            <p class="project-description">
+              Pig is a simple dice game where players race to reach 100 points.
+              Built with JavaScript, it features interactive gameplay, dice
+              rolls, and player scoring, all wrapped in a clean and responsive
+              design.
+            </p>
+            <div class="links-and-logos">
+              <a
+                class="social-link"
+                href="https://github.com/oudom-phoem/pig-game-js"
+                target="_blank"
+              >
+                <ion-icon
+                  class="social-link-icon"
+                  name="logo-github"
+                ></ion-icon>
+              </a>
+              <a
+                class="btn-live"
+                href="https://oudom-phoem.github.io/pig-game-js/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <img src="https://skillicons.dev/icons?i=html" alt="HTML logo" />
+              <img src="https://skillicons.dev/icons?i=css" alt="CSS logo" />
+              <img
+                src="https://skillicons.dev/icons?i=js"
+                alt="JavaScript logo"
+              />
+            </div>
+          </div>
+
+          <div class="project-text-box">
+            <h3 class="heading-tertiary">Guess Number Game</h3>
+            <p class="project-description">
+              Number Guessing Game is a fun and interactive JavaScript game
+              where players try to guess a randomly generated number. It
+              features a dynamic UI, feedback for each guess, and a reset
+              option, all within a clean and responsive design.
+            </p>
+            <div class="links-and-logos">
+              <a
+                class="social-link"
+                href="https://github.com/oudom-phoem/guess-number-js"
+                target="_blank"
+              >
+                <ion-icon
+                  class="social-link-icon"
+                  name="logo-github"
+                ></ion-icon>
+              </a>
+              <a
+                class="btn-live"
+                href="https://oudom-phoem.github.io/guess-number-js/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <img src="https://skillicons.dev/icons?i=html" alt="HTML logo" />
+              <img src="https://skillicons.dev/icons?i=css" alt="CSS logo" />
+              <img
+                src="https://skillicons.dev/icons?i=js"
+                alt="JavaScript logo"
+              />
+            </div>
+          </div>
+          <div class="project-img-box">
+            <img src="./img/number-guessing.png" alt="" />
+          </div>
         </div>
       </section>
     </main>
