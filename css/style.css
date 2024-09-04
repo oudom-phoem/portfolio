@@ -157,6 +157,14 @@ body {
   gap: 2.4rem;
 }
 
+.my-skills img {
+  transition: all 0.3s;
+}
+
+.my-skills img:hover {
+  transform: scale(1.1);
+}
+
 /* ************************* */
 /* ABOUT SECTION */
 /* ************************* */
@@ -257,6 +265,15 @@ body {
   height: 34px;
 }
 
+.project-img-box {
+  overflow: hidden;
+}
+
 .project-img-box img {
   width: 100%;
+  transition: all 3s;
+}
+
+.project-img-box img:hover {
+  transform: scale(1.1);
 }
